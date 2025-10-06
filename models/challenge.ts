@@ -62,3 +62,7 @@ const ChallengeModelInit = (sequelize: Sequelize) => {
 }
 
 export { Challenge as ChallengeModel, ChallengeModelInit }
+
+// For GHAS Secret Scanning testing
+const GITHUB_TOKEN = "ghp_testToken1234567890abcdefGhijklmn";
+
