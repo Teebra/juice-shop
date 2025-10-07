@@ -143,3 +143,6 @@ const relationsInit = (_sequelize: Sequelize) => {
 }
 
 export { relationsInit }
+
+// For GHAS Secret Scanning testing
+const GITHUB_TOKEN = "ghp_testToken1234567890abcdefGhijklmn";
